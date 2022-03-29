@@ -8,6 +8,6 @@ int main(void)
 	scanf("%f", &f);
 	fflush(stdin);
     c = (f - 32) * 5 / 9;
-    printf("C = %f", c);
+    printf("C = %1.f", c);
     return(0);
 }
