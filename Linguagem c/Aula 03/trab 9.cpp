@@ -4,12 +4,14 @@
 
 int main (void){
 	float n1, n2, a;
-	printf("Digite um numero: \n");
+	printf("Digite quantos voce ganha por hora: \n");
 	scanf("%f", &n1);
 	fflush(stdin);
-	printf("Digite outro numero: \n");
+	printf("Digite quantas horas voce trabalha no mes: \n");
 	scanf("%f", &n2);
 	fflush(stdin);
-	a = n1+n2;
-	printf("a soma e igual a= %.1f",a);
+	a= n1*n2;
+	printf("Voce ganhou:%.1f neste mes", a);
+	
+
 }
