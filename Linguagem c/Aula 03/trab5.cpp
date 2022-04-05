@@ -17,10 +17,10 @@ int main (void){
 	a=(n1*2);
 	b=(n2/2);
 	c=(3*n1)+n3;
-	d=n3*n3;
+	d=(pow(n3,3));
 	printf("O dobro do primeiro e: %.1f, e a metade do segundo e: %.1f \n", a, b);
 	printf("a soma do triplo do primeiro com o terceiro: %.1f \n", c);
-	printf("terceiro elevado ao cubo e: %f", d);
+	printf("terceiro elevado ao cubo e: %.1f", d);
 	
 	
 	

@@ -2,14 +2,13 @@
 #include <stdlib.h>
 #include <math.h>
 
-int main (void){
-	float n1, n2, a;
-	printf("Digite um numero: \n");
-	scanf("%f", &n1);
+int main(void){
+	float cm,m;
+	printf("Digite os metros: \n");
+	scanf("%f", &m);
 	fflush(stdin);
-	printf("Digite outro numero: \n");
-	scanf("%f", &n2);
-	fflush(stdin);
-	a = n1+n2;
-	printf("a soma e igual a= %.1f",a);
+	cm = m *100;
+	printf("Seus centimetros sao: %.0f cm", cm);
+	return 0;
+	
 }

@@ -1,18 +1,15 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 
 int main (void){
-	float n1, n2, n3;
+	float n1, n2, a;
 	printf("Digite um numero: \n");
 	scanf("%f", &n1);
 	fflush(stdin);
-	printf("Digite um outro numero: \n");
+	printf("Digite outro numero: \n");
 	scanf("%f", &n2);
 	fflush(stdin);
-	n3=n1+n2;
-	printf("A some e: %.0f", n3);
-	
-	
-	
+	a = n1+n2;
+	printf("a soma e igual a= %.0f",a);
 }

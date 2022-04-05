@@ -9,7 +9,7 @@ int main (void){
 	scanf("%f", &n1);
 	fflush(stdin);
 	a= d*n1;
-	b= a /100*8;
+	b= a*0.08;
 	c= a-b; 
 	printf("%.1f", c);
 

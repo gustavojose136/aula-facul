@@ -3,15 +3,20 @@
 #include <math.h>
 
 int main (void){
-	float n1, n2, a;
-	printf("Digite quantos voce ganha por hora: \n");
+	float n1, n2, n3, n4, a;
+	printf("Digite a primeira nota: \n");
 	scanf("%f", &n1);
 	fflush(stdin);
-	printf("Digite quantas horas voce trabalha no mes: \n");
+	printf("Digite a segunda nota: \n");
 	scanf("%f", &n2);
 	fflush(stdin);
-	a= n1*n2;
-	printf("Voce ganhou:%.1f neste mes", a);
-	
+	printf("Digite a terceira nota: \n");
+	scanf("%f", &n3);
+	fflush(stdin);
+	printf("Digite a quarta nota: \n");
+	scanf("%f", &n4);
+	fflush(stdin);
+	a=(n1+n2+n3+n4)/4;
+	printf("Sua media e= %.1f", a);
 
 }
