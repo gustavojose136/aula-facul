@@ -8,7 +8,7 @@
     		scanf("%c", &letra);
     	if(letra == 'a' || letra == 'A' || letra == 'e' || letra == 'E' || letra == 'i'
        	|| letra == 'I' || letra == '0' || letra == 'O' || letra == 'u' || letra == 'U')
-        	printf("\tVogal...\n");
+        	printf("Vogal\n");
    		 else
-        	printf("\tConsoante\n");
+        	printf("Consoante\n");
 }

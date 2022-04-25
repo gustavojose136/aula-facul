@@ -6,7 +6,8 @@
 		printf("Digite algum numero: \n");
 		scanf("%d",&x);
 		fflush(stdin);
-		if(x % 2){
+		x++;
+		if((x % 2)==0){
 			printf("seu numero e par so pra trocar");
 		}else{
    			printf("seu numero e impar so pra trocar");

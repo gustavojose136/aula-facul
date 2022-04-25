@@ -5,9 +5,7 @@ h1{
     background-color: #0b9946;
     color: #fff;
     padding: 1px;
-    border-radius: 5px;
-    animation-name: example;
-    animation-duration: 4s;
+    font-size: 20px;
     ;
 }
 #nizio{
