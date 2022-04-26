@@ -3,19 +3,49 @@
 #include <math.h>
 
 	int main(void){
-		float c, n1, n2, n3;
+		int c, n1, n2;
 		printf("Escolha umas das opcoes:\n[ 1 ] Adicao\n[ 2 ] Subtracao\n[ 3 ] Multiplicacao\n[ 4 ] Divisao\n[ 5 ] Fim\n");
-		scanf("%f", c);
+		scanf("%i", &c);
 		fflush(stdin);
-		if(c==1){
-			printf("Escolha um numero:\n");
-			scanf("%f", n1);
+		switch(c){
+		case 1:
+			printf("Digite um numero\n");
+			scanf("%i", &n1);
 			fflush(stdin);
-			printf("Escolha outro numero:\n");
-			scanf("%f", n2);
+			printf("Digite outro numero\n");
+			scanf("%i", &n2);
 			fflush(stdin);
-			n3=n1+n2;
-			printf("A soma vai ser igual a:%f", n3);
+			printf("A soma da conta ira ser %i",n1+n2);
+			break;
+		case 2:
+			printf("Digite um numero\n");
+			scanf("%i", &n1);
+			fflush(stdin);
+			printf("Digite outro numero\n");
+			scanf("%i", &n2);
+			fflush(stdin);
+			printf("A subtracao da conta ira ser %i",n1-n2);
+			break;
+		case 3:
+			printf("Digite um numero\n");
+			scanf("%i", &n1);
+			fflush(stdin);
+			printf("Digite outro numero\n");
+			scanf("%i", &n2);
+			fflush(stdin);
+			printf("A multiplicacao da conta ira ser %i",n1*n2);
+			break;
+		case 4:
+			printf("Digite um numero\n");
+			scanf("%i", &n1);
+			fflush(stdin);
+			printf("Digite outro numero\n");
+			scanf("%i", &n2);
+			fflush(stdin);
+			printf("A divisao da conta ira ser %i",n1/n2);
+			break;
+			
+			
 		}
 		
 	}

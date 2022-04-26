@@ -14,7 +14,10 @@
 		scanf("%f", &n3);
 		fflush(stdin);
 		m=(n1+n2+n3)/3;
-		if (m==10){
+		if ((n1<=-1 || n1>=11)||(n2<=-1 || n2>=11)||(n3<=-1 || n3>=11)){
+			printf("Valor invalido");
+		}	
+		else if (m==10){
 			printf("Aprovado com Distincao com media %.1f",m);
 		}else if(m>=7){
 			printf("Aprovado com media %.1f",m);
