@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerea</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400" rel="stylesheet">
+</head>
+<body>
+    <div class="area_neon">
+            <h1 id="texto_neon" class="neon">Viagens</h1>
+    </div>
+    <div class="praia"><img src="images/praia.png" width="25%"></div>
+    <script>
+        function turnOn(){
+            var texto = document.getElementById("texto_neon");
+            texto.className = texto.className.concat(" on");
+        
+            var imagem = document.getElementById("img_neon");
+            imagem.setAttribute("class", imagem.getAttribute("class").concat(" on"));
+            
+        }
+        </script>
+</body>
+</html>

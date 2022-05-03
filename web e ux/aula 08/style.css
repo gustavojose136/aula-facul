@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(43, 36, 40);
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    color: rgb(126, 1, 72);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.praia{
+    text-align: right;
+}
+.area_neon{
+    background-color: #0F0F0F;
+    font-family: 'Nunito', sans-serif;
+    
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    padding: 20px;
+    padding-top: 40px;
+    position: absolute;
+}
+
+.area_neon h1.neon{
+    font-weight: 400;
+    font-size: 7em;
+    filter: blur(0);
+    -webkit-text-stroke: 1px rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.1);
+    text-shadow: -5px 5px 5px black;
+      -webkit-background-clip: text;
+    
+    transition: all ease 1s;
+}
+
+.area_neon h1.neon.on{
+
+    filter: blur(1px);
+
+    color: white;
+    -webkit-text-stroke: 1px #00FFB3;
+    text-shadow: 0 0 5px #CCFFF7, 0 0 200px #00FFDB;
+    -webkit-background-clip: none;
+}
+
+.area_neon{
+    width: 50%;
+    margin: 0 auto;
+
+    fill: rgba(255,255,255,0.1);
+    stroke: rgba(255,255,255,0.1);
+    
+    filter: blur(0) drop-shadow(-5px 5px 5px black);
+    transition: all ease 1s;
+}
+
