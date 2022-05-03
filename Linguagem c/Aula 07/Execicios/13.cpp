@@ -17,11 +17,16 @@
 		scanf("%f",&c);
 		fflush(stdin);
 		m=(x+y+z+c)/4;
-		if(m<25){
+		if(m<0){
+				printf("Invalido, tente novamente");
+			if(m<25){
 				printf("Turma Jovem");
 			}else if(m<=40){
 				printf("Turma Adulta");
 			}else if(m>40){
 				printf("Turma Idosa");
 			}		
+		}else{
+			printf("Erro seu burro, media=0");
+		}
 		}

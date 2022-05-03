@@ -7,6 +7,8 @@
 		printf("Escolha umas das opcoes:\n[ 1 ] Adicao\n[ 2 ] Subtracao\n[ 3 ] Multiplicacao\n[ 4 ] Divisao\n[ 5 ] Fim\n");
 		scanf("%i", &c);
 		fflush(stdin);
+		do{
+		system("cls");
 		switch(c){
 		case 1:
 			printf("Digite um numero\n");
@@ -47,7 +49,7 @@
 			else{
 				printf("ERRO! Divisao por zero");
 			}
-			break;	
-		}
+		}	getch();	
+		}while(c!=5);
 		
 	}

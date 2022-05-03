@@ -3,9 +3,9 @@
 #include <math.h>
 
 	int main(void){
-		int d;
+		float d;
 		printf("Digite um numero que corresponda a um dia da semana(ex: 1-Domingo, 2-Segunda, etc.)\n");
-		scanf("%i",&d);
+		scanf("%f",&d);
 		fflush(stdin);
 		if(d==1){
 			printf("hoje e domingo");
