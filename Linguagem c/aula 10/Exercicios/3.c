@@ -17,5 +17,5 @@
 				menor=num;
 			}
 		}
-		printf("O maior numero vai ser: %i, e o menor:%i", maior, menor);
+		printf("A diferenca entre o maior e o menor numero vai ser de= %i-%i=%i", maior, menor, maior-menor);
 	}
