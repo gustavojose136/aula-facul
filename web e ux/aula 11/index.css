@@ -1,0 +1,13 @@
+fieldset {
+    background-color: rgb(6, 177, 177);
+}
+.name {
+    background-color: green;
+    color: brown;
+    border-radius: 5rem;
+    box-shadow: 5rem;
+}
+.name:hover{
+    background-color: blue;
+    color: rgb(252, 0, 189);
+}
