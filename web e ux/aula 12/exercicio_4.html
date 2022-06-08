@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nome = prompt("Digite o nome do aluno");
+        var prevnota1 = prompt("Digite a nota 1");
+        var prevnota2 = prompt("Digite a nota 2");
+        var prevnota3 = prompt("Digite a nota 3");
+        var nota1 = prevnota1 * 0.3;
+        var nota2 = prevnota2 * 0.35;
+        var nota3 = prevnota3 * 0.35;
+        var media = (nota1+nota2+nota3);
+        
+        if(media >= 70){
+            document.write("Parabens " + nome + " voce passou");
+        }else if(media >= 50 && media < 70){
+            document.write(nome + ", voce esta de exame");
+        }else{
+            document.write(nome + ", voce esta REPROVADO");
+        }
+
+    </script>
+</body>
+</html>
