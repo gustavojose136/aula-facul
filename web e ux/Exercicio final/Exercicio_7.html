@@ -8,5 +8,63 @@
 </head>
 <body>
     
+    <script>
+
+        var continuar = "s";
+        var pesquisa = 1;
+
+        while(continuar === "s") {
+            var habitante = prompt("Digite o numero de Habitantes da pesquisa " + pesquisa + ": ");
+            habitante = parseInt(habitante);
+
+            var somaSalario = 0;
+            var somaFilhos = 0;
+            var mediaSalario;
+            var mediaFilhos;
+            var porcentSalario = 0;
+            var habitantesBaixoSalario = 0;
+
+            for(var i = 0; i < habitante; i++) {
+                var salario = prompt("Digite o Salario de " + [i + 1] + "o Habitante: ");
+                var filhos = prompt("Digite o numero de Filhos de " + [i + 1] + "o Habitante: ");
+
+                salario = parseInt(salario);
+                filhos = parseInt(filhos);
+
+                somaSalario += salario;
+                somaFilhos += filhos;
+
+                if(i == 0) {
+                    var maiorSalario = salario;
+                }
+
+                maiorSalario = parseInt(maiorSalario);
+
+                if(salario > maiorSalario) {
+                    maiorSalario = salario;
+                }
+
+                if(salario <= 150) {
+                    habitantesBaixoSalario++;
+                }
+            
+            }
+
+            mediaSalario = somaSalario / habitante;
+            mediaFilhos = somaFilhos / habitante;
+            porcentSalario = (habitantesBaixoSalario / habitante) * 100;
+
+            document.write("===== Pesquisa " + pesquisa + " =====<br>");
+            document.write("media salarial = " + mediaSalario + "<br>");
+            document.write("media filhos = " + mediaFilhos + "<br>");
+            document.write("maior salario = " + maiorSalario + "<br>");
+            document.write("porcentagem menor que 150 de salario = " + porcentSalario.toFixed() + "%" + "<br><br>");
+
+            pesquisa++;
+            continuar = prompt("Deseja continua? Digite s ou n: ");
+        }
+        
+    </script>
+
 </body>
 </html>
