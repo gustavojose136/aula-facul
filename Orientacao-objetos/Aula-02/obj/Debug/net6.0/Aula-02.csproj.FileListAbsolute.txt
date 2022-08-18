@@ -1,0 +1,15 @@
+C:\Users\gjose\OneDrive\Área de Trabalho\all\code\projetos\aula-facul\Orientacao-objetos\Aula-02\obj\Debug\net6.0\Aula-02.csproj.AssemblyReference.cache
+C:\Users\gjose\OneDrive\Área de Trabalho\all\code\projetos\aula-facul\Orientacao-objetos\Aula-02\obj\Debug\net6.0\Aula-02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gjose\OneDrive\Área de Trabalho\all\code\projetos\aula-facul\Orientacao-objetos\Aula-02\obj\Debug\net6.0\Aula-02.AssemblyInfoInputs.cache
+C:\Users\gjose\OneDrive\Área de Trabalho\all\code\projetos\aula-facul\Orientacao-objetos\Aula-02\obj\Debug\net6.0\Aula-02.AssemblyInfo.cs
+C:\Users\gjose\OneDrive\Área de Trabalho\all\code\projetos\aula-facul\Orientacao-objetos\Aula-02\obj\Debug\net6.0\Aula-02.csproj.CoreCompileInputs.cache
+C:\Users\gjose\OneDrive\Área de Trabalho\all\code\projetos\aula-facul\Orientacao-objetos\Aula-02\bin\Debug\net6.0\Aula-02.exe
+C:\Users\gjose\OneDrive\Área de Trabalho\all\code\projetos\aula-facul\Orientacao-objetos\Aula-02\bin\Debug\net6.0\Aula-02.deps.json
+C:\Users\gjose\OneDrive\Área de Trabalho\all\code\projetos\aula-facul\Orientacao-objetos\Aula-02\bin\Debug\net6.0\Aula-02.runtimeconfig.json
+C:\Users\gjose\OneDrive\Área de Trabalho\all\code\projetos\aula-facul\Orientacao-objetos\Aula-02\bin\Debug\net6.0\Aula-02.dll
+C:\Users\gjose\OneDrive\Área de Trabalho\all\code\projetos\aula-facul\Orientacao-objetos\Aula-02\bin\Debug\net6.0\Aula-02.pdb
+C:\Users\gjose\OneDrive\Área de Trabalho\all\code\projetos\aula-facul\Orientacao-objetos\Aula-02\obj\Debug\net6.0\Aula-02.dll
+C:\Users\gjose\OneDrive\Área de Trabalho\all\code\projetos\aula-facul\Orientacao-objetos\Aula-02\obj\Debug\net6.0\refint\Aula-02.dll
+C:\Users\gjose\OneDrive\Área de Trabalho\all\code\projetos\aula-facul\Orientacao-objetos\Aula-02\obj\Debug\net6.0\Aula-02.pdb
+C:\Users\gjose\OneDrive\Área de Trabalho\all\code\projetos\aula-facul\Orientacao-objetos\Aula-02\obj\Debug\net6.0\Aula-02.genruntimeconfig.cache
+C:\Users\gjose\OneDrive\Área de Trabalho\all\code\projetos\aula-facul\Orientacao-objetos\Aula-02\obj\Debug\net6.0\ref\Aula-02.dll
