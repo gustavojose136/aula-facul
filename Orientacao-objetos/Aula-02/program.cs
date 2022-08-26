@@ -1,6 +1,7 @@
-﻿Cidade c1 = new Cidade("joinville",900);
+﻿Cidade c1 = new Cidade("joinville",1000);
 Cidade c2 = new Cidade();
 Cidade c3 = new Cidade("Jaragua");
+
 
 Console.Clear();
 
