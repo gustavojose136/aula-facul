@@ -1,0 +1,15 @@
+D:\github\aula-facul\Orientacao-objetos\aula-09\bin\Debug\net6.0\aula-09.exe
+D:\github\aula-facul\Orientacao-objetos\aula-09\bin\Debug\net6.0\aula-09.deps.json
+D:\github\aula-facul\Orientacao-objetos\aula-09\bin\Debug\net6.0\aula-09.runtimeconfig.json
+D:\github\aula-facul\Orientacao-objetos\aula-09\bin\Debug\net6.0\aula-09.dll
+D:\github\aula-facul\Orientacao-objetos\aula-09\bin\Debug\net6.0\aula-09.pdb
+D:\github\aula-facul\Orientacao-objetos\aula-09\obj\Debug\net6.0\aula-09.csproj.AssemblyReference.cache
+D:\github\aula-facul\Orientacao-objetos\aula-09\obj\Debug\net6.0\aula-09.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\aula-facul\Orientacao-objetos\aula-09\obj\Debug\net6.0\aula-09.AssemblyInfoInputs.cache
+D:\github\aula-facul\Orientacao-objetos\aula-09\obj\Debug\net6.0\aula-09.AssemblyInfo.cs
+D:\github\aula-facul\Orientacao-objetos\aula-09\obj\Debug\net6.0\aula-09.csproj.CoreCompileInputs.cache
+D:\github\aula-facul\Orientacao-objetos\aula-09\obj\Debug\net6.0\aula-09.dll
+D:\github\aula-facul\Orientacao-objetos\aula-09\obj\Debug\net6.0\refint\aula-09.dll
+D:\github\aula-facul\Orientacao-objetos\aula-09\obj\Debug\net6.0\aula-09.pdb
+D:\github\aula-facul\Orientacao-objetos\aula-09\obj\Debug\net6.0\aula-09.genruntimeconfig.cache
+D:\github\aula-facul\Orientacao-objetos\aula-09\obj\Debug\net6.0\ref\aula-09.dll
