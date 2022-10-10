@@ -1,0 +1,5 @@
+D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\obj\Debug\net6.0\aula-10-bancoManseira.csproj.AssemblyReference.cache
+D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\obj\Debug\net6.0\aula-10-bancoManseira.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\obj\Debug\net6.0\aula-10-bancoManseira.AssemblyInfoInputs.cache
+D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\obj\Debug\net6.0\aula-10-bancoManseira.AssemblyInfo.cs
+D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\obj\Debug\net6.0\aula-10-bancoManseira.csproj.CoreCompileInputs.cache
