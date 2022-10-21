@@ -1,12 +1,19 @@
 ﻿Tela tela = new Tela();
-
-
-
-tela.ConfigurarTela();
-tela.montarTelaSistema();
-tela.montarMoldura(5, 5, 40, 10);
-tela.montarMoldura(10, 7, 20);
-
-
-
+ControleConta contas = new ControleConta(tela);
+string opcao;
+List<string> menuPrincipal = new List<string>();
+menuPrincipal.Add("1 - Contas      ");
+menuPrincipal.Add("2 - Movimentação");
+menuPrincipal.Add("3 - Extrato     ");
+menuPrincipal.Add("0 - Sair        ");
+tela.configurarTela();
+while (true) {
+    tela.montarTelaSistema();
+    opcao = tela.mostrarMenu(menuPrincipal, 5, 5);
+    if (opcao == "0") break;
+    if (opcao == "1") contas.executarCRUD();
+    
+}
+//tela.montarMoldura(5,5,40,10);
+//tela.montarMoldura(10,7,50,20);
 Console.ReadKey();

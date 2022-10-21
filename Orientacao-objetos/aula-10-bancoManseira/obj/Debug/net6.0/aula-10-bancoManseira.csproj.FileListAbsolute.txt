@@ -1,5 +1,15 @@
+D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\bin\Debug\net6.0\aula-10-bancoManseira.exe
+D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\bin\Debug\net6.0\aula-10-bancoManseira.deps.json
+D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\bin\Debug\net6.0\aula-10-bancoManseira.runtimeconfig.json
+D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\bin\Debug\net6.0\aula-10-bancoManseira.dll
+D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\bin\Debug\net6.0\aula-10-bancoManseira.pdb
 D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\obj\Debug\net6.0\aula-10-bancoManseira.csproj.AssemblyReference.cache
 D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\obj\Debug\net6.0\aula-10-bancoManseira.GeneratedMSBuildEditorConfig.editorconfig
 D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\obj\Debug\net6.0\aula-10-bancoManseira.AssemblyInfoInputs.cache
 D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\obj\Debug\net6.0\aula-10-bancoManseira.AssemblyInfo.cs
 D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\obj\Debug\net6.0\aula-10-bancoManseira.csproj.CoreCompileInputs.cache
+D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\obj\Debug\net6.0\aula-10-bancoManseira.dll
+D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\obj\Debug\net6.0\refint\aula-10-bancoManseira.dll
+D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\obj\Debug\net6.0\aula-10-bancoManseira.pdb
+D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\obj\Debug\net6.0\aula-10-bancoManseira.genruntimeconfig.cache
+D:\github\aula-facul\Orientacao-objetos\aula-10-bancoManseira\obj\Debug\net6.0\ref\aula-10-bancoManseira.dll
