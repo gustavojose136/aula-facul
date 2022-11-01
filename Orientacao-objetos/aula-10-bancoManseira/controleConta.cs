@@ -5,6 +5,7 @@ class ControleConta{
     int posicao;
     string numConta;
     string titConta;
+    decimal salConta;
     // métodos
     public ControleConta(Tela t){
         this.tela = t;
@@ -36,10 +37,55 @@ class ControleConta{
             if(achou){
                 // achou a conta e vai mostrar os dados
                 this.mostrarDadosConta();
-                Console.ReadKey();
-            } else{
+
+                //pergunta pro usuario o que dejesa fazer
+                string resp = this.tela.perguntar(
+                    11, 13, "Deseja Alterar, Excluir ou Sair? (A/E/V): "
+                );
+                if(resp.ToUpper() == "A"){
+                    // alterar
+                   this.titConta = this.tela.perguntar( 11, 12, "Digite o novo Titular: ");
+
+                   this.tela.limparArea(11, 13, 69, 13);
+                   resp = this.tela.perguntar(11,12,"Confirma Alteração? (S/N): ");
+                   if (resp.ToUpper()== "S" ){
+                    this.bancoDados[this.posicao].titular = this.titConta;
+                   }
+                    
+                }else if(resp.ToUpper() == "E"){
+                    // excluir
+                    this.tela.limparArea(11, 13, 69, 13);
+                   resp = this.tela.perguntar(11,12,"Confirma Exclusão? (S/N): ");
+                   if (resp.ToUpper()== "S" ){
+                    this.bancoDados.RemoveAt(this.posicao);
+                   }
+                }
+                }else{
+    
                 /* não achou a conta, mostra a mensagem e 
                 pergunta se deseja cadastrar uma nova conta */
+                string resp = this.tela.perguntar(
+                    11, 13, "Conta não encontrada. Deseja cadastrar uma nova conta? (S/N): "
+                ); if(resp.ToUpper() == "S"){
+                    // cadastrar
+                    this.titConta = this.tela.perguntar( 21, 12, " ");
+                    this.salConta = Convert.ToDecimal(
+                        this.tela.perguntar( 21, 13, " ")
+                    );
+                    this.tela.limparArea(11,13,69,13);
+
+                    resp = this.tela.perguntar(11,13,"Confirma cadastro (S/N): ");
+
+                    if (resp.ToUpper() == "S"){
+
+                        this.bancoDados.Add(
+
+                            new Conta(this.titConta, this.salConta)
+
+                        );
+
+                    }
+                }
             }
         }
     }
@@ -56,5 +102,13 @@ class ControleConta{
         Console.Write(this.bancoDados[this.posicao].titular);
         Console.SetCursorPosition(21,11);
         Console.Write(this.bancoDados[this.posicao].saldo);
+    }
+
+    public string perguntar(int col, int lin, string perg){
+        string resp;
+        Console.SetCursorPosition(col,lin);
+        Console.Write(perg);
+        resp = Console.ReadLine();
+        return resp;
     }
 }

@@ -104,4 +104,17 @@ class Tela
         op = Console.ReadLine();
         return op;
     }
+
+    public string perguntar(int col, int lin, string perg){
+
+        string resp = "S";
+
+        Console.SetCursorPosition(col,lin);
+
+        Console.Write(perg);
+
+        resp = Console.ReadLine();
+        return resp;
+
+    }
 }
