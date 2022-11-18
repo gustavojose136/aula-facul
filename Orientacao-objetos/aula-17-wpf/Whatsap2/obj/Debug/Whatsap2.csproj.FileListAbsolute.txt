@@ -1,0 +1,16 @@
+D:\github\aula-facul\Orientacao-objetos\aula-17-wpf\Whatsap2\bin\Debug\Whatsap2.exe.config
+D:\github\aula-facul\Orientacao-objetos\aula-17-wpf\Whatsap2\bin\Debug\Whatsap2.exe
+D:\github\aula-facul\Orientacao-objetos\aula-17-wpf\Whatsap2\bin\Debug\Whatsap2.pdb
+D:\github\aula-facul\Orientacao-objetos\aula-17-wpf\Whatsap2\obj\Debug\Whatsap2.csproj.AssemblyReference.cache
+D:\github\aula-facul\Orientacao-objetos\aula-17-wpf\Whatsap2\obj\Debug\Whatsap2.csproj.SuggestedBindingRedirects.cache
+D:\github\aula-facul\Orientacao-objetos\aula-17-wpf\Whatsap2\obj\Debug\MainWindow.g.cs
+D:\github\aula-facul\Orientacao-objetos\aula-17-wpf\Whatsap2\obj\Debug\App.g.cs
+D:\github\aula-facul\Orientacao-objetos\aula-17-wpf\Whatsap2\obj\Debug\Whatsap2_MarkupCompile.cache
+D:\github\aula-facul\Orientacao-objetos\aula-17-wpf\Whatsap2\obj\Debug\Whatsap2_MarkupCompile.lref
+D:\github\aula-facul\Orientacao-objetos\aula-17-wpf\Whatsap2\obj\Debug\MainWindow.baml
+D:\github\aula-facul\Orientacao-objetos\aula-17-wpf\Whatsap2\obj\Debug\Whatsap2.g.resources
+D:\github\aula-facul\Orientacao-objetos\aula-17-wpf\Whatsap2\obj\Debug\Whatsap2.Properties.Resources.resources
+D:\github\aula-facul\Orientacao-objetos\aula-17-wpf\Whatsap2\obj\Debug\Whatsap2.csproj.GenerateResource.cache
+D:\github\aula-facul\Orientacao-objetos\aula-17-wpf\Whatsap2\obj\Debug\Whatsap2.csproj.CoreCompileInputs.cache
+D:\github\aula-facul\Orientacao-objetos\aula-17-wpf\Whatsap2\obj\Debug\Whatsap2.exe
+D:\github\aula-facul\Orientacao-objetos\aula-17-wpf\Whatsap2\obj\Debug\Whatsap2.pdb

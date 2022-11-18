@@ -1,0 +1,41 @@
+﻿<Window x:Class="Whatsap2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Whatsap2"
+        mc:Ignorable="d"
+        Title="Tela Principal" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="580*"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="47*"/>
+            <ColumnDefinition Width="133*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Crud de Clientes" HorizontalAlignment="Left" VerticalAlignment="Top" Background="White" Height="33" Width="139"/>
+        <DataGrid x:Name="DTGclientes" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,33,70,276" CanUserAddRows="False"/>
+        <Button x:Name="BTNmodificar" Content="Modificar Cliente" HorizontalAlignment="Left" Margin="529,36,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3"/>
+        <Button x:Name="BTNcadastrar" Content="Cadastrar Cliente" HorizontalAlignment="Left" Margin="46,36,0,0" VerticalAlignment="Top" Grid.Column="2" Grid.ColumnSpan="2"/>
+        <Label Content="Código" HorizontalAlignment="Left" Margin="529,70,0,0" VerticalAlignment="Top"/>
+        <Label Content="nome" HorizontalAlignment="Left" Margin="529,103,0,0" VerticalAlignment="Top" Height="26" Width="44"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="529,140,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TBXemail" HorizontalAlignment="Left" Margin="22,148,0,0" TextWrapping="Wrap" Text="Digite o seu email" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="3">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox x:Name="TBXnome" HorizontalAlignment="Left" Margin="22,107,0,0" TextWrapping="Wrap" Text="Digite o seu nome" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" Grid.Column="1" Grid.ColumnSpan="3">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox x:Name="TBXid" HorizontalAlignment="Left" Margin="22,74,0,0" TextWrapping="Wrap" Text="Digite o seu ID" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="3">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <Button x:Name="BTNgravar" Content="Gravar" HorizontalAlignment="Left" Margin="576,197,0,0" VerticalAlignment="Top" Click="Button_Click" Width="52" Grid.ColumnSpan="3"/>
+        <Button x:Name="BTNcancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="41,197,0,0" VerticalAlignment="Top" Click="Button_Click" Width="52" ClickMode="Hover" Grid.Column="2" Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>
